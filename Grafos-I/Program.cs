@@ -37,8 +37,6 @@ class Grafo
         AgregarNodo(origen);
         AgregarNodo(destino);
         adyacencias[origen].Add(destino);
-        // Si quieres grafo no dirigido, descomenta la siguiente línea:
-        // adyacencias[destino].Add(origen);
     }
 
     // =============================
